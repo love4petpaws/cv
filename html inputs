@@ -1,0 +1,12 @@
+ <input type="email" id="email" name="email"> email address field
+ <input type="email" id="email" name="email" multiple> for multiple email addresses
+ <input type="search" id="search" name="search">  will create a search field
+ <input type="tel" id="tel" name="tel"> phone number field
+ <input type="url" id="url" name="url">  url input field
+ <input type="datetime-local" name="datetime" id="datetime"> non specific datetime
+ <input type="month" name="month" id="month"> pick a month with a year
+ <input type="time" name="time" id="time"> pick a time value will return a 24 hr format
+ <input type="week" name="week" id="week"> pick a weeks number and year
+ <label for="myDate">When are you available this summer?</label>
+<input type="date" name="myDate" min="2013-06-01" max="2013-08-31" step="7" id="myDate"> constraining date and time values
+<input type="color" name="color" id="color"> color picker
